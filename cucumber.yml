@@ -1,0 +1,2 @@
+smoke: -t @smoke --format pretty --format html --out smoke.html
+regression: -t @regression --format pretty --format html --out regression.html
